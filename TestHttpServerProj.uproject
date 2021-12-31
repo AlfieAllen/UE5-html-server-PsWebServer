@@ -1,0 +1,22 @@
+{
+  "FileVersion": 3,
+  "EngineAssociation": "5.0",
+  "Category": "",
+  "Description": "",
+  "Modules": [
+    {
+      "Name": "TestHttpServerProj",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "AdditionalDependencies": [
+        "PsWebServer"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "PsWebServer",
+      "Enabled": true
+    }
+  ]
+}
